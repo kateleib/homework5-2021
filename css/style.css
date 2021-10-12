@@ -100,7 +100,7 @@ nav a:hover{
   /* Requirement 5 code here*/
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: repeat(5, auto);
   grid-row-gap: 15px;
 }
 
@@ -113,10 +113,10 @@ header{
   color: white;
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
-  background-repeat: no-repeat;
-  background-image: url("../images/header.jpg");
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
+  background-repeat: no-repeat;
+  background-image: url("../images/header.jpg");
 }
 
 
@@ -168,8 +168,16 @@ header{
   grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
-  grid-row: 5 / span 1
+  grid-row: 4 / span 1
 }
+
+.contact-image{
+  grid-column: 1 / -1;
+  grid-row: 5 / span 1;
+  max-height: 700px;
+  overflow: hidden;
+}
+
 .text-block{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
