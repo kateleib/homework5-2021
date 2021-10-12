@@ -84,7 +84,10 @@ nav a:hover{
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  top:0
+  top:0;
+  position: static;
+  visibility: visible;
+
 }
 
 /* Requirement 4 code here*/
