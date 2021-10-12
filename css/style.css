@@ -89,7 +89,9 @@ nav a:hover{
 
 /* Requirement 4 code here*/
 
-
+*:focus{
+  border: 2px solid;
+}
 
 .container{
   /* Requirement 5 code here*/
