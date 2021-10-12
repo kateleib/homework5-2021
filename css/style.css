@@ -83,7 +83,7 @@ nav a:hover{
 }
 
 /* Requirement 3b code here*/
-.skip a: focus{
+.skip a:focus{
   top:0
 }
 
